@@ -11,7 +11,7 @@ public class Main {
         //Notes();
         //loops();
         //PasswordManager();
-        Arrays();
+        //Arrays();
     }
 
     public static void TryScanner() {
