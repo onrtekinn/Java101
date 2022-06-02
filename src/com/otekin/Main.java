@@ -12,8 +12,12 @@ public class Main {
         //loops();
         //PasswordManager();
         //Arrays();
+        //ExplicitImplicit();
     }
-
+    public void ExplicitImplicit(){
+        double i=2.0;
+        int f= (int) i;
+    }
     public static void TryScanner() {
         Scanner input = new Scanner(System.in);
 
@@ -24,6 +28,7 @@ public class Main {
         int b = input.nextInt();
         int summary = a + b;
         System.out.println("summary :" + summary);
+
     }
 
     public static void Notes() {
@@ -94,7 +99,7 @@ public class Main {
 
             }
 
-            System.out.printf("********************* %d . satır tamanlandı ************************\n",i);
+            System.out.printf("********************* %d . satır tamamlandı ************************\n",i);
 
 
         }
