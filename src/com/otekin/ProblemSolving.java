@@ -18,6 +18,17 @@ public class ProblemSolving {
         System.out.println("String: " + s);
         System.out.println("Double: " + y);
         System.out.println("Int: " + i);
+        ///Reading Integers////
+        String valueAsString = "42";
+        int value = Integer.valueOf(valueAsString);
+
+        System.out.println(value);
+
+        Scanner scanner = new Scanner(System.in);
+
+        System.out.println("Write a value ");
+        int value2 = Integer.valueOf(scanner.nextLine());
+        System.out.println("You wrote " + value2);
     }
 
     public void Loops() {

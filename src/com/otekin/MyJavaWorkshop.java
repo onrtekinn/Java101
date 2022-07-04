@@ -16,5 +16,8 @@ public class MyJavaWorkshop {
         int b = input.nextInt();
         int summary = 0;
         System.out.println ("a+b"+summary);
+
     }
+
+
 }
